@@ -9,6 +9,6 @@ modules other than grunt-cli should be specified in Gruntfile.js.
 
 On your dokku server run:
 ```sh
-cd /var/lib/dokku/plugins
-git clone https://github.com/ezynda3/dokku-bower-grunt-build bower-grunt-build
+> git clone https://github.com/samzhao/dokku-bower-grunt-build /var/lib/dokku/plugins/bower-grunt-build
+> dokku plugins-install
 ```
